@@ -3,7 +3,7 @@ import { Component } from '@angular/core';
 @Component({
   template: `
   <h1>{{title}}</h1>
-  <h2>{{hero.name}} details!</h2>
+  <h2>{{hero.name}} details!!!</h2>
   <div>
     <label>Name:</label>
     <input [(ngModel)]="hero.name" placeholder='name'>
